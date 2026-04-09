@@ -1,0 +1,4 @@
+*.json
+.hwt-keys*
+.env*
+index.html
