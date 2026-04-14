@@ -2,7 +2,7 @@
 
 [HWT（Hash Web Token）プロトコル](../hwt-protocol/)の開発サーバーとシナリオデモ。
 
-[正規ドキュメント](https://hwtprotocol.com/hwt-demo) [issues](https://github.com/hwt-protocol/hwt-demo/issues)
+[正規ドキュメント](https://www.jimmont.com/hwt/hwt-demo) [issues](https://github.com/hwt-protocol/hwt-demo/issues)
 
 HWTはステートレスなクロスドメイン認可トークンプロトコルである。任意のドメインが有効なissuer（発行者）となれる。トークンはissuerの公開鍵に到達できる誰でも検証可能であり、中央プロバイダーも当事者間の事前設定も不要だ。
 
@@ -199,8 +199,8 @@ revocation確認はHWTの上に構築されたライブラリ機能である。S
 
 ## 関連
 
-- [HWTプロトコル仕様](../hwt-protocol)
-- [hwtr-jsリファレンスライブラリ](../hwtr-js)
+- [HWTプロトコル仕様](../hwt-protocol/)
+- [hwtr-jsリファレンスライブラリ](../hwtr-js/)
 
 ## ライセンス
 

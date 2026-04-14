@@ -20,7 +20,9 @@ Secret format used here — same format as the Cloudflare HMAC demo:
   {"secret":"..."} parsed as JSON, secret ≥ 32 characters.
 */
 
-import { Hwtr, } from 'https://hwtprotocol.com/hwtr-js/hwtr.js';
+// https://jsr.io/@hwt/hwtr-js/0.1.2/hwtr.js
+// jsr:@hwt/hwtr-js
+import { Hwtr, } from 'jsr:@hwt/hwtr-js';
 
 /*
 ── config ────────────────────────────────────────────────────────────────────

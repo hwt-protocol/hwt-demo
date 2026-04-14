@@ -32,7 +32,9 @@ function arg(name){
 }
 
 import { Hono }  from 'jsr:@hono/hono';
-import { Hwtr, base64urlToUint8Array, bufferToBase64Url } from 'https://hwtprotocol.com/hwtr-js/hwtr.js';
+// https://jsr.io/@hwt/hwtr-js/0.1.2/hwtr.js
+// jsr:@hwt/hwtr-js
+import { Hwtr, base64urlToUint8Array, bufferToBase64Url } from 'jsr:@hwt/hwtr-js';
 
 const config = {
 	hostname: 'localhost',

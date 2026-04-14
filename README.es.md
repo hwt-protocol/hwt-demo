@@ -2,7 +2,7 @@
 
 Servidor de desarrollo y demostraciones de escenarios para el [protocolo HWT (Hash Web Token)](../hwt-protocol/).
 
-[documentación canónica](https://hwtprotocol.com/hwt-demo) [issues](https://github.com/hwt-protocol/hwt-demo/issues)
+[documentación canónica](https://www.jimmont.com/hwt/hwt-demo) [issues](https://github.com/hwt-protocol/hwt-demo/issues)
 
 HWT es un protocolo de token de autorización sin estado y entre dominios. Cualquier dominio es un issuer (emisor) válido. Los tokens son verificables por cualquier parte que pueda acceder a las claves públicas del issuer — sin proveedor central, sin preconfiguración entre las partes.
 
@@ -199,8 +199,8 @@ Sin `--hwt-keys`, las claves se generan en memoria y se pierden al reiniciar. Po
 
 ## Relacionado
 
-- [Especificación del Protocolo HWT](../hwt-protocol)
-- [Biblioteca de referencia hwtr-js](../hwtr-js)
+- [Especificación del Protocolo HWT](../hwt-protocol/)
+- [Biblioteca de referencia hwtr-js](../hwtr-js/)
 
 ## Licencia
 

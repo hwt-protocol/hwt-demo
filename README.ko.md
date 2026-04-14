@@ -2,7 +2,7 @@
 
 [HWT(Hash Web Token) 프로토콜](../hwt-protocol/)의 개발 서버 및 시나리오 데모입니다.
 
-[공식 문서](https://hwtprotocol.com/hwt-demo) [이슈](https://github.com/hwt-protocol/hwt-demo/issues)
+[공식 문서](https://www.jimmont.com/hwt/hwt-demo) [이슈](https://github.com/hwt-protocol/hwt-demo/issues)
 
 HWT는 상태 비저장, 도메인 간 인가 token 프로토콜입니다. 어느 도메인이든 유효한 발급자(issuer)가 될 수 있습니다. Token은 발급자의 공개 키에 접근할 수 있는 누구나 검증할 수 있으며 — 중앙 공급자도, 당사자 간 사전 설정도 불필요합니다.
 
@@ -199,8 +199,8 @@ deno run -A demo-revocation-strategies.js
 
 ## 관련 자료
 
-- [HWT 프로토콜 명세](../hwt-protocol)
-- [hwtr-js 참조 라이브러리](../hwtr-js)
+- [HWT 프로토콜 명세](../hwt-protocol/)
+- [hwtr-js 참조 라이브러리](../hwtr-js/)
 
 ## 라이선스
 

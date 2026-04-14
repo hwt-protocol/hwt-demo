@@ -2,7 +2,7 @@
 
 [HWT（Hash Web Token）協定](../hwt-protocol/)的開發伺服器與情境示例。
 
-[正式文件](https://hwtprotocol.com/hwt-demo) [議題](https://github.com/hwt-protocol/hwt-demo/issues)
+[正式文件](https://www.jimmont.com/hwt/hwt-demo) [議題](https://github.com/hwt-protocol/hwt-demo/issues)
 
 HWT 是無狀態的跨網域授權 token 協定。任何網域皆為有效的 issuer（發行方）。任何能存取 issuer 公鑰的一方均可驗證 token — 無需中央提供者，各方之間無需預先設定。
 
@@ -199,8 +199,8 @@ deno run -A demo-revocation-strategies.js
 
 ## 相關資源
 
-- [HWT 協定規格書](../hwt-protocol)
-- [hwtr-js 參考程式庫](../hwtr-js)
+- [HWT 協定規格書](../hwt-protocol/)
+- [hwtr-js 參考程式庫](../hwtr-js/)
 
 ## 授權條款
 
