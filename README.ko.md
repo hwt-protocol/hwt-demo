@@ -204,5 +204,5 @@ deno run -A demo-revocation-strategies.js
 
 ## 라이선스
 
-Apache License 2.0 — [LICENSE](./LICENSE) 참조.
+Apache License 2.0 — [LICENSE](./LICENSE.md) 참조.
 

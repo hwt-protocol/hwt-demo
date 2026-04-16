@@ -204,7 +204,7 @@ revocation確認はHWTの上に構築されたライブラリ機能である。S
 
 ## ライセンス
 
-Apache License 2.0 — [LICENSE](./LICENSE)を参照。
+Apache License 2.0 — [LICENSE](./LICENSE.md)を参照。
 
 ---
 

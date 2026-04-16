@@ -1,4 +1,7 @@
-import Hwtr from '../hwtr-js/hwtr.js';
+import Hwtr from 'jsr:@hwt/hwtr-js'
+/*
+deno run ./demo-basic.js
+ */
 
 const KID = 'demo-example';
 const ISS = 'https://example.com';
@@ -58,13 +61,27 @@ const hwtConfig = {
 	hwt_version:         '0.7',
 	authz_schemas:       ['RBAC/1.0.2'],
 };
-console.log(
-	`demo-example...`,
-	`token ${ check.ok ? 'verified':`invalid ${ check.error }` }, expires: ${ new Date(check.expires * 1000).toISOString() }`,
+console.log(`
+demo-example...
+`,
+	`
+token ${ check.ok ? 'verified':`invalid ${ check.error }` }, expires: ${ new Date(check.expires * 1000).toISOString() }
+	`,
 	 JSON.stringify({token}),
-	`/.well-known/hwt-keys.json`, JSON.stringify(jwks, null, '\t'),
-	`/.well-known/hwt.json`, JSON.stringify(hwtConfig, null, '\t'),
-	`PRIVATE key config (store securely)`, JSON.stringify(keyConfig, null, '\t')
+	`
+
+/.well-known/hwt-keys.json`, JSON.stringify(jwks, null, '\t'),
+	`
+
+/.well-known/hwt.json`, JSON.stringify(hwtConfig, null, '\t'),
+	`
+
+PRIVATE key config (store securely)`, JSON.stringify(keyConfig, null, '\t'),
+
+`
+
+NOTE can add keys into existing config array to continue using all.
+`
 );
 if (!check.ok) {
 	console.warn(`verification failed`, check);

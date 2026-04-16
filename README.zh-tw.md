@@ -204,4 +204,4 @@ deno run -A demo-revocation-strategies.js
 
 ## 授權條款
 
-Apache License 2.0 — 請參閱 [LICENSE](./LICENSE)。
+Apache License 2.0 — 請參閱 [LICENSE](./LICENSE.md)。

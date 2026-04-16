@@ -204,5 +204,5 @@ Ohne `--hwt-keys` werden Schlüssel im Speicher generiert und bei Neustart verwo
 
 ## Lizenz
 
-Apache License 2.0 – siehe [LICENSE](./LICENSE).
+Apache License 2.0 – siehe [LICENSE](./LICENSE.md).
 

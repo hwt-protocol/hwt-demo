@@ -204,4 +204,4 @@ Sans `--hwt-keys`, les clés sont générées en mémoire et perdues au redémar
 
 ## Licence
 
-Licence Apache 2.0 — voir [LICENSE](./LICENSE).
+Licence Apache 2.0 — voir [LICENSE](./LICENSE.md).
