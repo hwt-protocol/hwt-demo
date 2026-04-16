@@ -1,6 +1,21 @@
+import Hwtr from 'https://jsr.io/@hwt/hwtr-js/0.1.4/hwtr.js';
+/* 
+
+from Deno:
 import Hwtr from 'jsr:@hwt/hwtr-js'
-/*
+
+or install and use in Node/bun with:
+npx jsr add @hwt/hwtr-js
+
+or copy and use locally:
+import Hwtr from './hwtr.js';
+
+
 deno run ./demo-basic.js
+
+
+outputs token, public config and key files for .well-known, and private key file
+
  */
 
 const KID = 'demo-example';
